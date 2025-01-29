@@ -34,13 +34,13 @@
 				"uva-school-of-data-science.sds-vscode",
 				"GitHub.copilot-chat",
 				"GitHub.copilot",
-				"GitHub.codespaces"
+				"GitHub.codespaces",
 				"ms-toolsai.datawrangler"
 			]
 		}
 	},
-	 "postCreateCommand": "pip3 install -r requirements.txt"
-
+	 "postCreateCommand": "pip3 install -r requirements.txt && /bin/bash add_ssh_key.sh"
+     
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
